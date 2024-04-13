@@ -32,9 +32,9 @@ int main() {
 
   if (BMI < 18.5) {
     cout << "\nBerat badan kurang";
-  } else if (BMI >= 18.5 || BMI < 25) {
+  } else if (BMI >= 18.5 && BMI < 25) {
     cout << "\nBerat badan normal";
-  } else if (BMI >= 25 || BMI < 30) {
+  } else if (BMI >= 25 && BMI < 30) {
     cout << "\nBerat badan berlebih";
   } else {
     cout << "\nObesitas";
